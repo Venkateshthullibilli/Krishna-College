@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.login {
+  min-height: 100vh;
+  /* background-color: #000000; */
+  background-color: #142d4c;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.college-name {
+  color: #eaddd8;
+  font-size: 35px;
+  width: 70%;
+  text-align: center;
+
+}
+
+.login-page-container {
+  border-radius: 10px;
+  /* background-color: #242424; */
+  background-color: #385170;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px;
+  margin-top: 80px;
+  box-shadow: (100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.college-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+label {
+  color: white;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #706b6b88; */
+  border: 1px solid #e7eaf6;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #e7eaf6;
+  opacity: 1;
+  font-style: italic;
+}
+
+.input-congtainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px;
+  margin-bottom: 25px;
+
+}
+
+.form-container {
+  padding: 50x 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.login-tbn {
+  align-self: center;
+  padding: 9px 40px;
+  color: #000000;
+  background-color: #cdbfbf;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-tbn:hover {
+  background-color: #142d4c;
+  color: white;
+}
+
+nav {
+  background-color: #e7eaf6;
+  /* width: 100%; */
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 3px 3px;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navlink {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.navlink:hover {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.navlink.active {
+  color: rgb(4, 131, 251);
+}
+
+.dashboard-container {
+  background-image: linear-gradient(to bottom right, #a2a8d3, #38598b, #113f67);
+  min-height: 85vh;
+  padding: 35px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-message {
+  color: #fcfefe;
+  font-family: cursive;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+.description {
+  color: #fcfefe;
+  font-family: cursive;
+  /* text-align: center; */
+  font-size: 18px;
+  margin-top: 50px;
+  letter-spacing: 4px;
+}
+
+.text-container {
+  width: 700px;
+  align-self: start;
+  margin-top: 25px;
+}
+
+
+.student-image {
+  height: 450px;
+}
+
+span {
+  color: #fff;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.program-table {
+  min-width: 100%;
+  border-collapse: collapse;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.program-table thead {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.program-table th {
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.program-table tbody {
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.program-table tr.even-row {
+  background-color: #eff6ff;
+  transition: background-color 0.2s;
+}
+
+.program-table tr.odd-row {
+  background-color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.program-table tr.even-row:hover {
+  background-color: #dbeafe;
+}
+
+.program-table tr.odd-row:hover {
+  background-color: #f9fafb;
+}
+
+.program-table td {
+  padding: 1rem 1.5rem;
+  white-space: nowrap;
+}
+
+.contact-us {
+  color: white;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.contact-details {
+  color: white;
+  font-size: 15px;
+  font-family: cursive;
+  width: 35%;
+  letter-spacing: 1px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.logout-button {
+  align-self: center;
+  padding: 9px 40px;
+  color: #fff;
+  background-color: #142d4c;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #455d7a;
+}
